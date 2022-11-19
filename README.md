@@ -12,7 +12,7 @@ Do With Your own Risk..
 
 
 Comments 
-
+'''
 apt update
 apt upgrade 
 pkg install git
@@ -22,9 +22,9 @@ pkg install python3
 git clone https://github.com/BlackTiger420/DDoS.git
 cd DDoS
 python3 program8.py
-
-User Name : Inbox Me
-Passwoard : Inbox Me
+'''
+User Name : '''BlackTiger'''
+Passwoard : '''RabinaIsMyDreamGirl'''
 Facebook : https://www.facebook.com/bdhacker.19
 
 Thank you for your time ⌚ .....
